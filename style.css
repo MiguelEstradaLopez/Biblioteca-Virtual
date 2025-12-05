@@ -1,0 +1,82 @@
+/* Aplicamos un estilo global a todos los elementos de la página */
+* {
+    margin: 0;  /* Elimina el margen por defecto de todos los elementos */
+    padding: 0; /* Elimina el relleno por defecto de todos los elementos */
+    box-sizing: border-box;  /* Asegura que el ancho y la altura incluyan los bordes y el relleno */
+}
+
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;  /* Establece la fuente de texto como Arial, con sans-serif como respaldo */
+    background-color: #f1f5f9;  /* Establece un fondo gris claro para la página */
+    color: #1e3a5f;  /* Color de texto en un tono azul oscuro */
+    padding: 20px;  /* Aplica un relleno de 20 píxeles alrededor de todo el contenido */
+}
+
+/* Estilos para los encabezados h2 */
+h2 {
+    color: #3b82f6;  /* Establece un color azul claro para los encabezados h2 */
+}
+
+/* Estilos para los botones */
+button {
+    background-color: #3b82f6;  /* El color de fondo del botón es azul claro */
+    color: white;  /* El texto del botón será blanco */
+    padding: 10px 15px;  /* El botón tendrá un relleno de 10 píxeles vertical y 15 píxeles horizontal */
+    border: none;  /* Elimina el borde por defecto del botón */
+    cursor: pointer;  /* Cambia el cursor a una mano al pasar sobre el botón */
+    margin-top: 10px;  /* Agrega un margen superior de 10 píxeles */
+}
+
+/* Efecto hover para los botones */
+button:hover {
+    background-color: #2563eb;  /* Al pasar el cursor sobre el botón, cambia el color de fondo a un azul más oscuro */
+}
+
+/* Estilos para los contenedores de login y dashboard */
+.login-container, .dashboard-container {
+    max-width: 600px;  /* Limita el ancho máximo de los contenedores a 600 píxeles */
+    margin: 0 auto;  /* Centra los contenedores horizontalmente */
+    padding: 20px;  /* Agrega un relleno de 20 píxeles dentro de los contenedores */
+    background-color: white;  /* El fondo de los contenedores será blanco */
+    border-radius: 8px;  /* Redondea las esquinas de los contenedores */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Aplica una sombra suave alrededor de los contenedores para darles profundidad */
+}
+
+/* Estilos para los campos de entrada de texto (input) */
+input {
+    width: 100%;  /* Hace que los campos de entrada ocupen todo el ancho disponible */
+    padding: 10px;  /* Aplica un relleno de 10 píxeles dentro de los campos */
+    margin: 10px 0;  /* Aplica un margen superior e inferior de 10 píxeles */
+    border: 1px solid #cbd5e1;  /* Establece un borde gris claro alrededor de los campos */
+    border-radius: 4px;  /* Redondea ligeramente las esquinas de los campos de entrada */
+}
+
+/* Estilos para las tablas */
+table {
+    width: 100%;  /* La tabla ocupará todo el ancho disponible */
+    margin-top: 20px;  /* Aplica un margen superior de 20 píxeles */
+    border-collapse: collapse;  /* Hace que las fronteras de las celdas se fusionen */
+}
+
+/* Estilos para las tablas, encabezados (th) y celdas (td) */
+table, th, td {
+    border: 1px solid #cbd5e1;  /* Establece un borde gris claro alrededor de la tabla, encabezados y celdas */
+}
+
+/* Estilos para los encabezados de la tabla (th) y las celdas (td) */
+th, td {
+    padding: 10px;  /* Aplica un relleno de 10 píxeles dentro de las celdas */
+    text-align: left;  /* Alinea el texto de las celdas a la izquierda */
+}
+
+/* Estilos para los enlaces dentro de las celdas de la tabla */
+td a {
+    color: #ef4444;  /* El color del enlace es rojo brillante */
+    text-decoration: none;  /* Elimina el subrayado predeterminado de los enlaces */
+}
+
+/* Efecto hover para los enlaces de la tabla */
+td a:hover {
+    text-decoration: underline;  /* Al pasar el ratón sobre el enlace, se subraya */
+}
